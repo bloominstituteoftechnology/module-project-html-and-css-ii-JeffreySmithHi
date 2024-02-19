@@ -3,9 +3,90 @@
 
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://www.joshwcomeau.com/css/custom-css-reset/">
   <style>
     /* 👉 Task 1- Apply the reset found on this page: https://www.joshwcomeau.com/css/custom-css-reset/ */
+    body {
+      font-family: Arial;
+    }
 
+    #headerTop {
+      background-color: darkcyan;
+      color: white;
+      padding: 12px;
+    }
+
+    #headerTop div {
+      display: inline-block;
+    }
+
+    #headerTop span {
+      margin-right: 24px;
+    }
+
+    #headerTop span:first-child{
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    #headerBottom {
+      border-bottom: 1px;
+      color: gray;
+      padding: 12px;
+    }
+
+    #headerBottom div {
+      display: inline-block;
+
+    }
+
+    #headerBottom div:first-child{
+      color: white;
+      font-weight: bold;
+      background-color: rgb(0, 102, 139);
+      padding: 10px;
+      border-radius: 8px;
+      margin-right: 12px;
+      cursor: pointer;
+    }
+
+    #headerBottom button{
+      all: unset;
+      margin-right: 12px;
+      cursor: pointer;
+    }
+
+    #headerBottom button:active  {
+      font-weight: bolder;
+      border-bottom: 2px;
+      color: hotpink;
+    }
+
+    .email div {
+      display: inline-block;
+    }
+
+    main {
+      border-bottom: 2px lightgray;
+    }
+
+    .email {
+      padding: 0.3rem;
+      padding-left: 0.8rem;
+      border-bottom: 1px solid lightgray;
+    }
+
+    .email-name, .email-subject {
+      width: 35%;
+    }
+
+    .email-check, .email-date, .email-size  {
+      width: 8%;
+    }
+
+    .email:nth-child(2){
+      font-weight: bold;
+    }
   </style>
   <style>
     /* 👉 Task 2- Target the body element.
@@ -68,11 +149,11 @@
 
 <body>
   <div id="instructions">
-    <h1>HTML & CSS II</h1>
+   <!-- <h1>HTML & CSS II</h1>
     <p>Please load this file in VSCode and Chrome, and open the Elements tab, Sources sub-tab, in Chrome Dev Tools.</p>
     <p>Work through the challenges found inside both style tags in this document.</p>
     <p>You will find a screenshot of the end result inside the design folder.</p>
-    <p>You can now comment out the h1 and the p tags...</p>
+    <p>You can now comment out the h1 and the p tags...</p> -->
   </div>
   <div>
     <header>
